@@ -11,7 +11,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   <body>
   <%=basePath%>
-  好棒啊！？
+  测试
   <img src="image/guidao.jpg">
   </body>
 </html>

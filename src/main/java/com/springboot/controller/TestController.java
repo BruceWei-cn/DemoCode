@@ -10,6 +10,6 @@ public class TestController {
     @RequestMapping("/")
     public String index(Model model, HttpServletResponse response) {
         model.addAttribute("name","this is ok");
-        return "index";
+        return "Test";
     }
 }
